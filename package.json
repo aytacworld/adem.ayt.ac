@@ -9,11 +9,18 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mdi/font": "^5.9.55",
+    "@tailwindcss/typography": "^0.4.0",
     "gray-matter": "^4.0.2",
     "next": "10.0.8",
     "raw-loader": "^4.0.2",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-markdown": "^5.0.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.8",
+    "tailwindcss": "^2.0.3"
   }
 }

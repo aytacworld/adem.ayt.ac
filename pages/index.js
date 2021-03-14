@@ -1,18 +1,12 @@
-import matter from 'gray-matter';
+import getPosts from '@utils/get-all-posts';
 
 import Layout from '@components/Layout';
-import PostList from '@components/PostList';
+import Article from '@components/Article';
 
-const Index = ({ posts, title, description, ...props }) => {
+const Index = ({ siteTitle, frontmatter, markdownBody }) => {
   return (
-    <Layout pageTitle={title}>
-      <h1 className="title">Welcome to my blog!</h1>
-      <p className="description">
-        {description}
-      </p>
-      <main>
-        <PostList posts={posts} />
-      </main>
+    <Layout pageTitle={siteTitle}>
+      <Article frontmatter={frontmatter} markdownBody={markdownBody} />
     </Layout>
   )
 };
@@ -20,32 +14,15 @@ const Index = ({ posts, title, description, ...props }) => {
 export default Index;
 
 export async function getStaticProps() {
-  const configData = await import('../siteconfig.json');
+  const config = await import('../siteconfig.json');
 
-  const posts = ((context) => {
-    const keys = context.keys();
-    const values = keys.map(context);
-
-    const data = keys.map((key, index) => {
-      let slug = key.replace(/^.*[\\\/]/, '').slice(0, -3);
-      const value = values[index];
-      const document = matter(value.default);
-
-      return {
-        frontmatter: document.data,
-        markdownBody: document.content,
-        slug,
-      };
-    });
-
-    return data;
-  })(require.context('../posts', true, /\.md$/));
+  const posts = getPosts();
+  const post = posts[0];
 
   return {
     props: {
-      posts,
-      title: configData.default.title,
-      description: configData.default.description,
+      siteTitle: config.default.title,
+      ...post,
     },
   };
 }
