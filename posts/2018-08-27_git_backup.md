@@ -15,7 +15,7 @@ Then after searching the internet, I found a solution, which was to recompile so
 So my files are backed up temporarily.
 But how am I going to know which files are updated and which aren't for the next time, so I will overwrite each time my backed up files. This will consume lot of time... I know that I need a good backup system.
 
-So why not use fit for that. It is incremental, and all files are versioned.
+So why not use git for that. It is incremental, and all files are versioned.
 
 So first open a directory where you want to store your backup, then init git with bare options.
 > git init --bare

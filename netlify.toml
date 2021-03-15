@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build && npm run export"
+  command = "npm run build && npm run export && node ./utils/generate-rss.js"
   public = "out"
 
 [[plugins]]
