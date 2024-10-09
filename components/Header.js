@@ -1,8 +1,8 @@
 import Link from 'next/link';
 
 const HeaderLink = ({ url, label }) => (
-  <Link href={url}>
-    <a className="mx-1">{label}</a>
+  <Link href={url} className="mx-1">
+    {label}
   </Link>
 );
 
