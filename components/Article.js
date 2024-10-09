@@ -26,7 +26,7 @@ export default function Article({ frontmatter, markdownBody }) {
   return (
     <article>
       <h2 className="mt-0">{frontmatter.title}</h2>
-      <ReactMarkdown source={markdownBody} />
+      <ReactMarkdown>{markdownBody}</ReactMarkdown>
       <div className="flex justify-between my-4">
         <NavigationLink item={frontmatter.previous} directionClass="left" />
         <NavigationLink item={frontmatter.next} directionClass="right" />
