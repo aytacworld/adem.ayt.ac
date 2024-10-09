@@ -11,8 +11,6 @@ const FooterLink = ({ url, icon }) => (
 export default function Footer() {
   return (
     <footer className="flex justify-center p-1">
-      <FooterLink url="https://www.linkedin.com/in/ademaytac" icon="linkedin" />
-      <FooterLink url="https://github.com/aytacworld" icon="github" />
       <FooterLink url="/rss" icon="rss" />
     </footer>
   );
