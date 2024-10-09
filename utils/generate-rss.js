@@ -1,7 +1,7 @@
 const fs = require('fs');
 const rss = require('@aytacworld/rss');
 const matter = require('gray-matter');
-const marked = require('marked');
+const { marked } = require('marked');
 const sanitizeHtml = require('sanitize-html');
 
 const path = require('path');
