@@ -39,7 +39,12 @@ export default function getPosts() {
       };
     });
 
-    return data;
+    return data.reduce((list, current) => {
+      if(!list.find((i) => i.slug === current.slug)) {
+        list.push(current);
+      }
+      return list;
+    }, []);
   })(require.context('../posts', true, /\.md$/));
 
   return posts;
