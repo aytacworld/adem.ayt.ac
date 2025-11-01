@@ -83,6 +83,24 @@ In Turks heb je ook verschillende dialecten en dezelfde leuke
 momenten heb je ook hier. Of verschillen in Engels of Frans waar de
 mensen wonen.
 
+Ik kan 4 talen spreken, maar zelfs dan, maak ik heel wat fouten.
+- In Nederlands: de/het, d/t
+- In Frans: mannelijk-vrouwelijk
+- In Engels: verkeerd zins opbouw
+- In Turks: verkeerde woorden
+
+Dit heeft natuurlijk ook te maken dat mensen rondom mij ook 
+meertalig zijn. En we veranderen makkelijk van taal als we een 
+zin/woord even niet weten in één taal.
+Voorbeeld:
+- Met mijn ouders spreek ik Turks.
+- Mijn broers/zus Turks-Nederlands.
+- Vrienden (die ik sinds school ken) Nederlands-Frans.
+- Vrienden (vooral buitenlanders + buiten België) Frans-Engels.
+- Collega's in Vlaanderen Nederlands-Engels.
+- Collega's in Franstalige bedrijven Frans-Engels.
+- IT mensen of online Engels
+
 Naast de Talen heb je ook Programmeertalen, het is niet 100% dezelfde
 maar je kan het zien als de taal van de machine, en elke 
 programmeertaal heeft zijn eigen gramatica, structuur en hoe je het
@@ -108,24 +126,6 @@ taal te beheersen.
 
 Maar ik wil nog andere talen ook leren en niet om de 3 jaar een
 nieuwe onderwerp leren.
-
-Ik kan 4 talen spreken, maar zelfs dan, maak ik heel wat fouten.
-- In Nederlands: de/het, d/t
-- In Frans: mannelijk-vrouwelijk
-- In Engels: verkeerd zins opbouw
-- In Turks: verkeerde woorden
-
-Dit heeft natuurlijk ook te maken dat mensen rondom mij ook 
-meertalig zijn. En we veranderen makkelijk van taal als we een 
-zin/woord even niet weten in één taal.
-Voorbeeld:
-- Met mijn ouders spreek ik Turks.
-- Mijn broers/zus Turks-Nederlands.
-- Vrienden (die ik sinds school ken) Nederlands-Frans.
-- Vrienden (vooral buitenlanders + buiten België) Frans-Engels.
-- Collega's in Vlaanderen Nederlands-Engels.
-- Collega's in Franstalige bedrijven Frans-Engels.
-- IT mensen of online Engels
 
 Ik heb een weekschema gemaakt, om meerdere talen, instrumenten,
 programmeertalen te leren tot eind juni.
