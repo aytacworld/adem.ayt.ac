@@ -25,11 +25,13 @@ export default function PostList({ posts }) {
                 <h3>{year}</h3>
                 <ul>
                 {postsPerYear[year].map((post) => {
+                    console.log(post);
                   return (
                     <li key={post.slug}>
                       {post.frontmatter.publishdate.split(' ')[0]} -&nbsp; 
                       <Link href={{ pathname: `/p/${post.slug}` }}>
-                        {post.frontmatter.title}
+                        {post.frontmatter.title} -&nbsp; 
+                        <small><i>{post.frontmatter.tags[0]}</i></small>
                       </Link>
                     </li>
                   );
