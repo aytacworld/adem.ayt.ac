@@ -1,7 +1,7 @@
 ---
 {
   "title": "New Beginning",
-  "tags": ["angular"],
+  "tags": ["en", "angular"],
   "publishdate": "2020-11-26 21:25:00"
 }
 ---

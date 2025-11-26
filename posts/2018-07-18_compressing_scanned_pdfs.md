@@ -1,7 +1,7 @@
 ---
 {
   "title": "Compressing scanned pdf's",
-  "tags": ["bash", "pdf", "tool", "snippet"],
+  "tags": ["en", "bash", "pdf", "tool", "snippet"],
   "publishdate": "2018-07-18"
 }
 ---

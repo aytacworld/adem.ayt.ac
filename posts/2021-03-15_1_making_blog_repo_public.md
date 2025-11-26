@@ -1,7 +1,7 @@
 ---
 {
   "title": "Making my blog source code publically available",
-  "tags": ["github", "project"],
+  "tags": ["en", "github", "project"],
   "publishdate": "2021-03-15 20:00:00"
 }
 ---

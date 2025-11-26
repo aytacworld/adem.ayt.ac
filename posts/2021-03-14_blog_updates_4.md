@@ -1,7 +1,7 @@
 ---
 {
   "title": "Blog updates 4",
-  "tags": ["react", "nextjs", "netlify", "tailwindcss"],
+  "tags": ["en", "react", "nextjs", "netlify", "tailwindcss"],
   "publishdate": "2021-03-14 22:00:00"
 }
 ---

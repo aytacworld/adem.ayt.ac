@@ -1,7 +1,7 @@
 ---
 {
   "title": "DisplayLink kernel update on Manjaro",
-  "tags": ["troubleshouting", "reminder", "manjaro", "displaylink"],
+  "tags": ["en", "troubleshouting", "reminder", "manjaro", "displaylink"],
   "publishdate": "2024-10-09 11:00:00"
 }
 ---

@@ -1,7 +1,7 @@
 ---
 {
   "title": "Closing libreshop",
-  "tags": ["libreshop"],
+  "tags": ["en", "libreshop"],
   "publishdate": "2020-05-18 14:00:00"
 }
 ---

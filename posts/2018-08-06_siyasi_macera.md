@@ -1,7 +1,7 @@
 ---
 {
   "title": "Siyasi Macera",
-  "tags": ["politika", "siyaset", "iyi", "Türkiye"],
+  "tags": ["tr", "politika", "siyaset", "iyi", "Türkiye"],
   "publishdate": "2018-08-06"
 }
 ---

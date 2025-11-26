@@ -1,7 +1,7 @@
 ---
 {
   "title": "Sax festivali",
-  "tags": ["festival", "los-turcos", "ispanya"],
+  "tags": ["tr", "festival", "los-turcos", "ispanya"],
   "publishdate": "2020-02-09 21:50:00"
 }
 ---

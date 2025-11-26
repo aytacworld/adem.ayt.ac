@@ -1,7 +1,7 @@
 ---
 {
   "title": "Projects progress in terminal",
-  "tags": ["terminal", "progress", "projects"],
+  "tags": ["en", "terminal", "progress", "projects"],
   "publishdate": "2018-08-04"
 }
 ---

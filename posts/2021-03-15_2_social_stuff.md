@@ -1,7 +1,7 @@
 ---
 {
   "title": "Social stuff",
-  "tags": ["twitter", "linkedin", "stackoverflow", "github"],
+  "tags": ["en", "twitter", "linkedin", "stackoverflow", "github"],
   "publishdate": "2021-03-15 22:30:00"
 }
 ---

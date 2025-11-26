@@ -1,7 +1,7 @@
 ---
 {
   "title": "The problem with third party tools/integration",
-  "tags": ["twitter", "facebook", "amazon", "google", "development", "alexa", "google-assistant"],
+  "tags": ["en", "twitter", "facebook", "amazon", "google", "development", "alexa", "google-assistant"],
   "publishdate": "2018-07-24"
 }
 ---

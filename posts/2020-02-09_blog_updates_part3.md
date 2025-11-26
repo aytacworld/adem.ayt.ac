@@ -1,7 +1,7 @@
 ---
 {
   "title": "Blog Updates part 3",
-  "tags": ["blog", "git", "refactoring"],
+  "tags": ["en", "blog", "git", "refactoring"],
   "publishdate": "2020-02-09 18:45:00"
 }
 ---
