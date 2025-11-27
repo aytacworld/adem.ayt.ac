@@ -11,7 +11,9 @@ export default function Layout({ children, pageTitle, ...props }) {
       </Head>
       <div className="flex min-h-screen flex-col">
         <Header />
-        <main className="flex-grow border border-gray-300 rounded-br-3xl bg-yellow-50 mx-2 p-4 prose max-w-none">{children}</main>
+        <main className="flex-grow mx-2 prose max-w-none flex justify-center content-center">
+          <div className="border border-gray-300 rounder-br-3xl bg-yellow-50 p-4"style={{maxWidth: "850px"}}>{children}</div>
+        </main>
         <Footer />
       </div>
     </>
