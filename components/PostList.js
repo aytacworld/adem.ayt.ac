@@ -25,7 +25,6 @@ export default function PostList({ posts }) {
                 <h3>{year}</h3>
                 <ul>
                 {postsPerYear[year].map((post) => {
-                    console.log(post);
                   return (
                     <li key={post.slug}>
                       {post.frontmatter.publishdate.split(' ')[0]} -&nbsp; 
