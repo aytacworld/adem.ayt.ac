@@ -47,7 +47,7 @@ sudo systemctl stop displaylink.service
 sudo systemctl start displaylink.service
 ```
 
-In my previous post about this issue, I refered to myseld to write down how I
+In my previous post about this issue, I refered to myself to write down how I
 feel towards displaylink. So here it is:
 
 I hate to install additional packages to just use a hub, to extend and use
