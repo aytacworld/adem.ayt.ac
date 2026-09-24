@@ -31,6 +31,10 @@ but I didn't had content for those pages yet. And didn't wanted to generate
 example page, so I removed them. I'll add them, back once I've decided
 what to put inside those pages.
 
+However, I did make it mobile-first.
+
+![mobile version](/post/2026-09-24_company_website_is_live_3.png)
+
 ### It's a really basic website, why did it take 2 weeks?
 
 I didn't worked hours per day on the site. When I started, that day I just
