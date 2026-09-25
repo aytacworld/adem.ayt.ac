@@ -1,6 +1,6 @@
 {
   "name": "adem.ayt.ac",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -16,7 +16,8 @@
     "raw-loader": "^4.0.2",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "react-markdown": "^10.1.0"
+    "react-markdown": "^10.1.0",
+    "simple-icons-font": "^16.32.0"
   },
   "devDependencies": {
     "@aytacworld/rss": "^1.0.0",
