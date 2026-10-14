@@ -5,23 +5,24 @@ const NavigationLink = ({ item, directionClass }) => {
   const isRight = directionClass === 'right';
   return (
     <div className="w-1/2">
-      {item &&
+      {item && (
         <Link
           href={`/p/${item.slug}`}
-          className={`flex items-center ${isRight && 'justify-end'} text-${directionClass} text-sm`}>
-
+          className={`flex items-center ${isRight && 'justify-end'} text-${directionClass} text-sm`}
+        >
           {!isRight && <i className="mdi mdi-arrow-left" />}
-          <span className="truncate" title={item.title}>{item.title}</span>
+          <span className="truncate" title={item.title}>
+            {item.title}
+          </span>
           {isRight && <i className="mdi mdi-arrow-right" />}
-
         </Link>
-      }
+      )}
     </div>
   );
-}
+};
 
 export default function Article({ frontmatter, markdownBody }) {
-  if (!frontmatter) return <></>;
+  if (!frontmatter) return;
 
   return (
     <article>

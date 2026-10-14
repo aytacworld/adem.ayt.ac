@@ -1,7 +1,6 @@
-import getPosts from '@utils/get-all-posts';
-
 import Layout from '@components/Layout';
 import PostList from '@components/PostList';
+import getPosts from '@utils/get-all-posts';
 
 const Archive = ({ siteTitle, posts }) => {
   return (

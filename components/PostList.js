@@ -18,28 +18,29 @@ export default function PostList({ posts }) {
     <div>
       {!years.length && <div>No Posts!</div>}
       <ul>
-        { years.length &&
+        {years.length &&
           years.map((year) => {
             return (
               <li key={year}>
                 <h3>{year}</h3>
                 <ul>
-                {postsPerYear[year].map((post) => {
-                  return (
-                    <li key={post.slug}>
-                      {post.frontmatter.publishdate.split(' ')[0]} -&nbsp; 
-                      <Link href={{ pathname: `/p/${post.slug}` }}>
-                        {post.frontmatter.title} -&nbsp; 
-                        <small><i>{post.frontmatter.tags[0]}</i></small>
-                      </Link>
-                    </li>
-                  );
-                })}
+                  {postsPerYear[year].map((post) => {
+                    return (
+                      <li key={post.slug}>
+                        {post.frontmatter.publishdate.split(' ')[0]} -&nbsp;
+                        <Link href={{ pathname: `/p/${post.slug}` }}>
+                          {post.frontmatter.title} -&nbsp;
+                          <small>
+                            <i>{post.frontmatter.tags[0]}</i>
+                          </small>
+                        </Link>
+                      </li>
+                    );
+                  })}
                 </ul>
               </li>
-            )
-          })
-        }
+            );
+          })}
       </ul>
     </div>
   );

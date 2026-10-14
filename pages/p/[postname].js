@@ -1,10 +1,9 @@
+import Article from '@components/Article';
+import Layout from '@components/Layout';
 import getPosts from '@utils/get-all-posts';
 
-import Layout from '@components/Layout';
-import Article from '@components/Article';
-
 export default function BlogPost({ siteTitle, frontmatter, markdownBody }) {
-  if (!frontmatter) return <></>;
+  if (!frontmatter) return;
 
   return (
     <Layout pageTitle={`${siteTitle} | ${frontmatter.title}`}>
@@ -19,7 +18,7 @@ export async function getStaticProps({ ...ctx }) {
   const config = await import('../../siteconfig.json');
 
   const posts = getPosts();
-  const post = posts.find(p => p.slug === postname);
+  const post = posts.find((p) => p.slug === postname);
 
   return {
     props: {

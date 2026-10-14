@@ -5,7 +5,7 @@ function getSlug(value) {
     return null;
   }
 
-  return value.replace(/^.*[\\\/]/, '').slice(0, -3);
+  return value.replace(/^.*[\\/]/, '').slice(0, -3);
 }
 
 export default function getPosts() {
@@ -27,7 +27,7 @@ export default function getPosts() {
         const doc = matter(vl.default);
 
         return { title: doc.data.title, slug: sl };
-      }
+      };
 
       const previous = getSlugAndTitle(index - 1);
       const next = getSlugAndTitle(index + 1);
@@ -40,7 +40,7 @@ export default function getPosts() {
     });
 
     return data.reduce((list, current) => {
-      if(!list.find((i) => i.slug === current.slug)) {
+      if (!list.find((i) => i.slug === current.slug)) {
         list.push(current);
       }
       return list;

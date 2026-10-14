@@ -1,14 +1,14 @@
-import getPosts from '@utils/get-all-posts';
+import Article from '@components/Article';
 
 import Layout from '@components/Layout';
-import Article from '@components/Article';
+import getPosts from '@utils/get-all-posts';
 
 const Index = ({ siteTitle, frontmatter, markdownBody }) => {
   return (
     <Layout pageTitle={siteTitle}>
       <Article frontmatter={frontmatter} markdownBody={markdownBody} />
     </Layout>
-  )
+  );
 };
 
 export default Index;

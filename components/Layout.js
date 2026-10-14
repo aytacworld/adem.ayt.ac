@@ -1,8 +1,8 @@
-import Head from 'next/head';
-import Header from '@components/Header';
 import Footer from '@components/Footer';
+import Header from '@components/Header';
+import Head from 'next/head';
 
-export default function Layout({ children, pageTitle, ...props }) {
+export default function Layout({ children, pageTitle }) {
   return (
     <>
       <Head>
@@ -12,7 +12,12 @@ export default function Layout({ children, pageTitle, ...props }) {
       <div className="flex min-h-screen flex-col">
         <Header />
         <main className="grow mx-2 prose max-w-none flex justify-center content-center">
-          <div className="border border-gray-300 rounded-br-3xl bg-yellow-50 p-4"style={{maxWidth: "850px"}}>{children}</div>
+          <div
+            className="border border-gray-300 rounded-br-3xl bg-yellow-50 p-4"
+            style={{ maxWidth: '850px' }}
+          >
+            {children}
+          </div>
         </main>
         <Footer />
       </div>

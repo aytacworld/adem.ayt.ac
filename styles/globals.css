@@ -1,9 +1,8 @@
-@import '@mdi/font';
-@import 'simple-icons-font/font/simple-icons.min.css';
+@import "@mdi/font";
+@import "simple-icons-font/font/simple-icons.min.css";
 
-@import 'tailwindcss';
-@plugin '@tailwindcss/typography';
-
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
 
 html,
 body {

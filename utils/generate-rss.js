@@ -1,19 +1,20 @@
-const fs = require('fs');
+const fs = require('node:fs');
 const rss = require('@aytacworld/rss');
 const matter = require('gray-matter');
 const { marked } = require('marked');
 const sanitizeHtml = require('sanitize-html');
 
-const path = require('path');
+const path = require('node:path');
 
 function getArticles(link) {
   const postsFolder = path.relative('.', './posts');
 
-  return fs.readdirSync(postsFolder)
-    .filter(i => i.endsWith('.md'))
-    .map(f => `./${postsFolder}/${f}`)
+  return fs
+    .readdirSync(postsFolder)
+    .filter((i) => i.endsWith('.md'))
+    .map((f) => `./${postsFolder}/${f}`)
     .reverse()
-    .map(file => {
+    .map((file) => {
       const mdFile = fs.readFileSync(file);
       const mattered = matter(mdFile);
 
