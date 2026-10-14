@@ -13,8 +13,7 @@ export default function Layout({ children, pageTitle }) {
         <Header />
         <main className="grow mx-2 prose max-w-none flex justify-center content-center">
           <div
-            className="border border-gray-300 rounded-br-3xl bg-yellow-50 p-4"
-            style={{ maxWidth: '850px' }}
+            className="border border-gray-300 rounded-br-3xl bg-yellow-50 p-4 max-w-[850px] w-full"
           >
             {children}
           </div>
