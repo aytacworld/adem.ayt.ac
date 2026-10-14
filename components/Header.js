@@ -13,6 +13,8 @@ export default function Header() {
       |
       <HeaderLink url="/about" label="about" />
       |
+      <HeaderLink url="/cv" label="CV" />
+      |
       <HeaderLink url="/archive" label="archive" />
     </header>
   );
