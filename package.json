@@ -1,6 +1,6 @@
 {
   "name": "adem.ayt.ac",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -14,6 +14,7 @@
     "@mdi/font": "^7.4.47",
     "@netlify/plugin-nextjs": "^5.16.2",
     "@tailwindcss/typography": "^0.5.4",
+    "flag-icons": "^7.5.0",
     "gray-matter": "^4.0.3",
     "next": "^16.4.0",
     "raw-loader": "^4.0.2",

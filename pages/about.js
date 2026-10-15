@@ -11,10 +11,27 @@ const About = ({ siteTitle }) => {
           alt="Avatar"
         />
       </div>
+
       <h2>About</h2>
+
+      <p>Hello, world! I'm Adem, and this is my personal blog.</p>
+
       <p>
-        Hello, I'm Adem and this is my personal blog, where you can find my unfinished adventures,
-        which I try to finish during my life.
+        Here I share my projects, things I learn, personal opinions, and
+        occasional experiments. Topics range from software development and
+        Linux to automation, self-hosting, and whatever else catches my
+        interest.
+      </p>
+
+      <p>
+        I write in multiple languages, so you'll find posts in English,
+        Turkish, Dutch, and French. The language depends on the topic and what
+        I feel like writing at the time.
+      </p>
+
+      <p>
+        Have a suggestion, a question, or just want to say hello? You can find
+        me on the social platforms linked at the bottom of this page.
       </p>
     </Layout>
   );
