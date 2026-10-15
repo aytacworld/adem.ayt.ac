@@ -6,7 +6,7 @@ import Skills from '@components/stats/skills';
 
 const Stats = ({ siteTitle }) => {
   return (
-    <Layout pageTitle={`Stats | ${siteTitle}`}>
+    <Layout pageTitle={`CV | ${siteTitle}`}>
       <div className="md:grid md:grid-cols-4 md:gap-3">
         <div>
           <Languages />

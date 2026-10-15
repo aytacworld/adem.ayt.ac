@@ -179,7 +179,7 @@ const Experiences = () => {
               </span>
             ))}
           </div>
-          {i.projects?.length && <h4 className="ml-[1rem]">Projects</h4>}
+          {i.projects?.length && <h4 className="ml-[1rem]">Clients</h4>}
           {i.projects?.map((p) => (
             <div key={p.title + p.company} className="ml-[1rem] mb-[1rem]">
               <div className="flex justify-between items-center">
