@@ -12,6 +12,27 @@ const About = ({ siteTitle }) => {
         />
       </div>
 
+      <h2>Hakkımda</h2>
+
+      <p>Merhaba, ben Adem, bu benim şahsi sitemdir.</p>
+
+      <p>
+        Burda projelerimi, öğrendiklerime, şahsi görüşlerimi ve deneylerimi
+        paylaşıyorum. Yazılımdan Linux otomazisyonuna, kendi sunucu
+        ayarlamaya kadar, ilgimi çeken herşey hakkında düşüncelerimi
+        yazıyorum.
+      </p>
+
+      <p>
+        Yazdığım metinleri Türkçe, Inglizce, Filemenkçe ve Fransızca olarak
+        bulabilirsiniz.
+      </p>
+
+      <p>
+        Öneri ve sorularınızi, veya merhaba demek istiyorsanız. Bilgilerimi
+        aşağıda bulabilirsiniz.
+      </p>
+
       <h2>About</h2>
 
       <p>Hello, world! I'm Adem, and this is my personal blog.</p>

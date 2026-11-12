@@ -32,8 +32,8 @@ export default function Article({ frontmatter, markdownBody }) {
         <NavigationLink item={frontmatter.previous} directionClass="left" />
         <NavigationLink item={frontmatter.next} directionClass="right" />
       </div>
-      <div className="text-xs">date: {frontmatter.publishdate}</div>
-      <div className="text-xs">tags: {frontmatter.tags.join(', ')}</div>
+      <div className="text-xs">tarih: {frontmatter.publishdate}</div>
+      <div className="text-xs">etiketler: {frontmatter.tags.join(', ')}</div>
     </article>
   );
 }

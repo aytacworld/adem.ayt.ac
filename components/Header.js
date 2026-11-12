@@ -9,13 +9,13 @@ const HeaderLink = ({ url, label }) => (
 export default function Header() {
   return (
     <header className="flex justify-center p-1">
-      <HeaderLink url="/" label="home" />
+      <HeaderLink url="/" label="anasayfa" />
       |
-      <HeaderLink url="/about" label="about" />
+      <HeaderLink url="/about" label="hakkımda" />
       |
       <HeaderLink url="/cv" label="CV" />
       |
-      <HeaderLink url="/archive" label="archive" />
+      <HeaderLink url="/archive" label="arşif" />
     </header>
   );
 }

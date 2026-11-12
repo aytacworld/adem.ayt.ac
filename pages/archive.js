@@ -4,8 +4,8 @@ import getPosts from '@utils/get-all-posts';
 
 const Archive = ({ siteTitle, posts }) => {
   return (
-    <Layout pageTitle={`Archive | ${siteTitle}`}>
-      <h2>Archive</h2>
+    <Layout pageTitle={`Arşif | ${siteTitle}`}>
+      <h2>Arşif</h2>
       <PostList posts={posts} />
     </Layout>
   );
